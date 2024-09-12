@@ -8,8 +8,8 @@
 # Variable declarations
 
 # Constants for the state and county tax rates
-STATE_TAX_RATE = .05
-COUNTY_TAX_RATE = .025
+state_tax_rate = .05
+county_tax_rate = .025
 
 # Get the amount of the purchase.
 purchase_amount = float(input("Enter purchase amount: $"))
