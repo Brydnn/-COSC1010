@@ -14,9 +14,9 @@ county_tax_rate = .025
 # Get the amount of the purchase.
 purchase_amount = float(input("Enter purchase amount: $"))
 # Calculate the state sales tax.
-state_sales_tax = purchase_amount * STATE_TAX_RATE 
+state_sales_tax = purchase_amount * state_tax_rate
 # Calculate the county sales tax.
-county_sales_tax = purchase_amount * COUNTY_TAX_RATE
+county_sales_tax = purchase_amount * county_tax_rate
 # Calculate the total tax.
 total_sales_tax = state_sales_tax + county_sales_tax
 # Calculate the total of the sale.
