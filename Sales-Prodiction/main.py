@@ -1,10 +1,17 @@
 #
-# Name: Brydnn Killpack
-# Date: 8/29/2024
-# Your First Python Program
-# COSC 1010 
+# Name Brydnn Killpack
+# Date
+# Sales Prediction Programming Project
+# COSC 2409 DNT
+#
 
-# This is my first Python program.
+# Variables to hold the sales total and the profit
+
+# Get the amount of projected sales.
+
+# Calculate the projected profit.
+
+# Print the projected profit.
 
 
 total_sales = float(input('Enter the projected sales:'))
