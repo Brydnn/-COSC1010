@@ -8,23 +8,22 @@
 # Variable declarations
 
 # Constants for the state and county tax rates
+STATE_TAX_RATE = .05
+COUNTY_TAX_RATE = .025
 
 # Get the amount of the purchase.
-
+purchase_amount = float(input("Enter purchase amount: $"))
 # Calculate the state sales tax.
-
+state_sales_tax = purchase_amount * STATE_TAX_RATE 
 # Calculate the county sales tax.
-
+county_sales_tax = purchase_amount * COUNTY_TAX_RATE
 # Calculate the total tax.
-
+total_sales_tax = state_sales_tax + county_sales_tax
 # Calculate the total of the sale.
-
+total_sale_amount = purchase_amount + total_sales_tax
 # Print information about the sale.
-total_sales = float(input('Enter the projected sales:'))
-
-
-profit = total_sales * 0.025
-
-profit = total_sales * 0.05
-
-print('The profit is $', format(profit, ',.2f'))
+print(f"Purchase Amount: ${purchase_amount:.2f}")
+print(f"State Sales Tax: ${state_sales_tax:.2f}")
+print(f"County Sales Tax:${county_sales_tax:.2f}")
+print(f"Total Sales Tax:${total_sales_tax:.2f}")
+print(f"Total Sale Amount:${total_sale_amount:.2f}")
