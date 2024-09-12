@@ -1,6 +1,6 @@
 #
 # Name Brydnn Killpack
-# Date
+# Date 9/11/2024
 # Sales Prediction Programming Project
 # COSC 2409 DNT
 #
