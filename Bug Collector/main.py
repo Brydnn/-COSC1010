@@ -1,6 +1,6 @@
 #
-# Name
-# Date
+# Name Brydnn Killpack
+# Date 9/23/2024
 # Bug Collector Programming Project
 # COSC 2409 DNT
 #
